@@ -1,0 +1,98 @@
+name: hamari_quraan
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  baseflow_plugin_template:
+    git:
+      url: git://github.com/Baseflow/baseflow_plugin_template.git
+      ref: v2.1.0
+
+
+  cached_network_image: ^3.1.0
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.0
+  dio: ^4.0.0
+  equatable: ^2.0.3
+  flutter_bloc: ^7.1.0
+  flutter_local_notifications: ^8.1.1+1
+  flutter_native_timezone: ^2.0.0
+  flutter_screenutil: ^5.0.0+2
+  flutter_svg: ^0.22.0
+  geolocator: ^7.4.0
+  google_fonts: ^2.1.0
+  hydrated_bloc: ^7.0.1
+  intl: ^0.17.0
+  lottie: ^1.1.0
+  motion_sensors: ^0.1.0
+  path_provider: ^2.0.2
+  permission_handler: ^8.1.4+2
+  rxdart: ^0.27.1
+  share_plus: ^2.1.4
+  shared_preferences: ^2.0.6
+  sqflite: ^2.0.0+3
+  url_launcher: ^6.0.9
+  share: ^2.0.4
+  expandable: ^5.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/core/json/
+    - assets/images/core/svg/
+    - assets/images/error/lottie_json/
+    - assets/images/navigation_icon/svg/
+    - assets/images/home_icon/svg/
+    - assets/images/home_icon/lottie_json/
+    - assets/images/collection_icon/svg/
+    - assets/images/qiblat_icon/svg/
+    - assets/images/praying_time/svg/
+    - assets/images/setting_icon/svg/
+    - assets/images/error/lottie_json/
+    - assets/images/permission/lottie_json/
+    - assets/images/tasbih_icon/svg/
+    - assets/images/dua_icon/svg/
+    - assets/images/quran_icon/svg/
+    - assets/images/image_of_the_day/
+    - assets/sound/
+
+  fonts:
+    - family: Uthman
+      fonts:
+        - asset: assets/fonts/Uthman-Taha-Naskh-Regular.otf
+        - asset: assets/fonts/Uthman-Taha-Naskh-Bold.otf
+          weight: 700
+    - family: Jameel
+      fonts:
+        - asset: assets/fonts/jameel.ttf
