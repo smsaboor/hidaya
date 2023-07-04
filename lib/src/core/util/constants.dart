@@ -4,17 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 const String PRAYER_TIMING_URL = 'http://api.aladhan.com/v1/timings/';
 const String DATABASE_FILE = 'siratemustaqeem-db.db';
 const String DATABASE_URL =
-    'https://raw.githubusercontent.com/muhammadtalhasultan/Sirat-e-Mustaqeem-Master/';
-
-const String PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.devtechnologies.siratemustaqeem';
-const WEBSITE_URL = 'https://talhasultan.dev/';
-const EMAIL_URL = 'mailto:talhasultan.dev@gmail.com?subject=Sirate%20Mustaqeem%20Query';
-const MEDIUM_URL = 'https://medium.com/@muhammadtalhasultan';
-const YOUTUBE_URL = 'https://www.youtube.com/channel/UC-cBM3nBHd5t6BKKznR3GNg';
-const FACEBOOK_URL = 'https://www.facebook.com/groups/218761196363628';
-const INSTA_URL = 'https://www.instagram.com/talhasultandev/';
-const INSTA_URL2 = '218761196363628';
-
+    'https://github.com/smsaboor/fitness_database/';
 const Color kLightPrimary = Color(0xFF5AD383);
 const Color kLightAccent = Color(0xFF48AB8C);
 const Color kLightTextColor = Colors.black;
